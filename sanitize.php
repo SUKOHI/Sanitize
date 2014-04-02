@@ -6,7 +6,7 @@ class Sanitize {
 	
 		if(is_array($str)) {
 	
-			return array_map(array($this, 'getSanitize'), $str);
+			return array_map(array($this, 'get'), $str);
 	
 		} else {
 	
